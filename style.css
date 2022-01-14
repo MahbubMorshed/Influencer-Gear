@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Manrope&family=Poppins:wght@500&display=swap");
+
+body {
+  background-color: ghostwhite;
+  font-family: "Poppins", "Inter", "Manrope";
+  margin: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+small {
+  text-align: right;
+}
+footer {
+  background-color: rgb(6, 4, 37);
+  color: ghostwhite;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 40px;
+}
+.footer-icon i {
+  background-color: rgb(28, 28, 68);
+  border-radius: 50%;
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 15px;
+}
+.footer-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.footer-para {
+  font-family: Manrope;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #d9dbe1;
+}
+.popular-collection {
+  width: 1060px;
+  padding: 30px;
+  border-radius: 5px;
+  margin-top: 21px;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
+  margin-bottom: 24px;
+}
+.collection {
+  position: relative;
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
+}
+.collection:hover {
+  border: 2px solid skyblue;
+}
+.collection-detail {
+  margin: 0;
+  padding: 0px 15px;
+}
+.collection-detail h1 {
+  font-family: Poppins;
+  margin: 0;
+  padding: 5px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.collection-detail h2 {
+  font-family: Inter;
+  margin: 0;
+  padding: 5px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.collection-detail p {
+  margin: 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.collection-item {
+  padding: 15px 15px;
+  width: 300px;
+  height: 256px;
+}
+
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #aeaeae;
+}
