@@ -130,7 +130,6 @@ button {
 .collection:hover {
   border: 2px solid rgb(3, 171, 238);
   margin: -2px;
-  /* overflow: hidden; */
 }
 .collection-detail {
   margin: 0;
@@ -216,22 +215,52 @@ footer {
 @media only screen and (max-width: 688px) {
   .start-journey {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .start-detail {
     justify-content: center;
+    text-align: center;
   }
   .main-heading {
     margin: 0;
     font-size: 28px;
+    line-height: 36px;
   }
+  .half-width {
+    width: 100%;
+  }
+  .logo-container {
+    width: 100%;
+  }
+  .logos {
+    display: flex;
+    justify-content: center;
+    width: 276px;
+    height: 62px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
+  }
+  .logo {
+    padding: 0px 40px;
+  }
+  .logo img {
+    width: 50%;
+  }
+
   .popular-collection {
     width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 21px;
   }
   .collections {
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
   }
   .collection {
     flex-direction: column;
+  }
+  .section-title {
+    text-align: center;
   }
 }
