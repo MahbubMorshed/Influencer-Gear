@@ -118,12 +118,12 @@ button {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 24px;
-  margin-bottom: 24px;
 }
 .collection {
   position: relative;
   width: 329px;
   height: 476px;
+  margin-bottom: 24px;
   border-radius: 5px;
   box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
 }
@@ -241,7 +241,7 @@ footer {
     box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
   }
   .logo {
-    padding: 0px 40px;
+    /* padding: 0px 40px; */
   }
   .logo img {
     width: 50%;
@@ -255,6 +255,22 @@ footer {
   }
   .collections {
     grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .collection {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .section-title {
+    text-align: center;
+  }
+}
+/*------------------------
+  Media query for tablet 
+ -----------------------*/
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
     justify-items: center;
   }
   .collection {
