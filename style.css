@@ -29,6 +29,9 @@ nav a {
   font-weight: 500;
   margin-right: 20px;
 }
+.unhide {
+  display: none;
+}
 
 /*-----------------
  journey area start 
@@ -241,6 +244,19 @@ footer {
   Media query for mobile 
  -----------------------*/
 @media only screen and (max-width: 688px) {
+  .nav-heading {
+    display: inline;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .unhide {
+    display: inline-block;
+  }
+  .hidden {
+    display: none;
+  }
+
   .start-journey {
     display: flex;
     flex-direction: column-reverse;
