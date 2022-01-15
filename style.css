@@ -69,8 +69,9 @@ button {
   margin-left: 50px;
 }
 .start-image:hover {
-  border: 2px solid rgb(3, 171, 238);
-  margin: -2px;
+  transform: scale(0.9);
+  /* border: 2px solid rgb(3, 171, 238); */
+  /* margin: -2px; */
 }
 .half-width {
   width: 50%;
