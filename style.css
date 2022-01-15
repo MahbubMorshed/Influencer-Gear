@@ -249,14 +249,12 @@ footer {
     text-align: center;
     padding: 10px;
   }
-
   .unhide {
     display: inline-block;
   }
   .hidden {
     display: none;
   }
-
   .start-journey {
     display: flex;
     flex-direction: column-reverse;
@@ -274,21 +272,20 @@ footer {
     width: 100%;
   }
   .logo-container {
+    margin-top: 50px;
     width: 100%;
   }
+
   .logos {
-    display: flex;
-    justify-content: center;
-    width: 276px;
-    height: 62px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
   }
   .logo {
-    /* padding: 0px 40px; */
   }
   .logo img {
-    width: 50%;
+    width: 100%;
   }
 
   .popular-collection {
