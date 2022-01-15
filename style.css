@@ -47,6 +47,9 @@ button {
   padding: 40px 40px;
 }
 .main-heading {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 52px;
   line-height: 70px;
   font-weight: 700;
@@ -59,43 +62,42 @@ button {
 }
 .start-detail {
   align-items: center;
+  margin-right: 10px;
+  padding: 5px 5px;
 }
 .start-image img {
-  width: 75%;
+  width: 70%;
+  margin-left: 50px;
+  border: 1px solid black;
 }
 .half-width {
   width: 50%;
 }
+.arrow {
+  font-size: 20px;
+}
 /*-----------------
- Footer area start 
+ logo area start 
  -----------------*/
+.logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  width: 1110px;
+  height: 110;
+  /* margin-left: 50px; */
+  padding: 10px;
 
-footer {
-  background-color: rgb(6, 4, 37);
-  color: ghostwhite;
-  text-align: center;
-  letter-spacing: 1px;
-  padding: 40px;
+  box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
+  /* border: 2px solid blueviolet; */
 }
-.footer-icon i {
-  background-color: rgb(28, 28, 68);
-  border-radius: 50%;
-  font-size: 24px;
-  margin-right: 10px;
-  padding: 15px;
+.logo {
+  padding: 0px 40px;
 }
-.footer-heading {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 36px;
+.logo img {
+  width: 50%;
 }
-.footer-para {
-  font-family: Manrope;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 300;
-  color: #d9dbe1;
-}
+
 /*-----------------
  Collection area start 
  -----------------*/
@@ -119,7 +121,9 @@ footer {
   box-shadow: 0 4px 8px rgba(128, 128, 128, 0.253);
 }
 .collection:hover {
-  border: 2px solid skyblue;
+  border: 2px solid rgb(3, 171, 238);
+  margin: -2px;
+  /* overflow: hidden; */
 }
 .collection-detail {
   margin: 0;
@@ -162,4 +166,34 @@ footer {
 }
 .fa-star.empty {
   color: #aeaeae;
+}
+/*-----------------
+ Footer area start 
+ -----------------*/
+
+footer {
+  background-color: rgb(6, 4, 37);
+  color: ghostwhite;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 40px;
+}
+.footer-icon i {
+  background-color: rgb(28, 28, 68);
+  border-radius: 50%;
+  font-size: 24px;
+  margin-right: 10px;
+  padding: 15px;
+}
+.footer-heading {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.footer-para {
+  font-family: Manrope;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #d9dbe1;
 }
