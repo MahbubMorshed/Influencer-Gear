@@ -316,6 +316,12 @@ footer {
   Media query for tablet 
  -----------------------*/
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+  .popular-collection {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 21px;
+  }
   .collections {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
