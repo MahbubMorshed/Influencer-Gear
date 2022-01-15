@@ -13,6 +13,63 @@ main {
 small {
   text-align: right;
 }
+/*-----------------
+ Nav area start 
+ -----------------*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px;
+}
+nav h1 {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+/*-----------------
+ journey area start 
+ -----------------*/
+button {
+  background-color: #e02c6d;
+  color: ghostwhite;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 30px;
+}
+.start-journey {
+  display: flex;
+  padding: 40px 40px;
+}
+.main-heading {
+  font-size: 52px;
+  line-height: 70px;
+  font-weight: 700;
+}
+.main-info {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #3a3a3a;
+}
+.start-detail {
+  align-items: center;
+}
+.start-image img {
+  width: 75%;
+}
+.half-width {
+  width: 50%;
+}
+/*-----------------
+ Footer area start 
+ -----------------*/
+
 footer {
   background-color: rgb(6, 4, 37);
   color: ghostwhite;
@@ -39,6 +96,9 @@ footer {
   font-weight: 300;
   color: #d9dbe1;
 }
+/*-----------------
+ Collection area start 
+ -----------------*/
 .popular-collection {
   width: 1060px;
   padding: 30px;
